@@ -1,6 +1,3 @@
-# CLI-SpreadSheet-App
-Simple command-line app to create, modify, and store spreadsheets
-
 # Spreadsheet CLI App
 
 A command-line spreadsheet application built in Java for creating, managing, and displaying table data.
