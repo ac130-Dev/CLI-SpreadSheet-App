@@ -6,7 +6,11 @@ public class Cell {
     }
 
     public Cell(Object value) {
-        this.value = value;
+        if (value == null || value.toString().trim().isEmpty()) {
+            this.value = "empty";
+        } else {
+            this.value = value;
+        }
     }
 
     public Object getValue() {
