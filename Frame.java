@@ -1,10 +1,10 @@
-public class Frame {
+public class Chart {
     private int rows;
     private int cols;
     private String chartName;
     private Cell[][] table;
 
-    public Frame(int rows, int cols) {
+    public Chart(int rows, int cols) {
         this.rows = rows;
         this.cols = cols;
         this.chartName = "Untitled Chart";
