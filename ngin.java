@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ngin {
     private static DataChart dataChart;
-    private static Frame currentFrame;
+    private static Chart currentFrame;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -74,7 +74,7 @@ public class ngin {
         int cols = scanner.nextInt();
         scanner.nextLine(); // consume newline
         
-        currentFrame = new Frame(rows, cols);
+        currentFrame = new Chart(rows, cols);
         dataChart.addChart(currentFrame);
         System.out.println("Chart created successfully!");
     }

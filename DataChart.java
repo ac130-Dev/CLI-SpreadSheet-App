@@ -2,19 +2,19 @@
 import java.util.ArrayList;
 
 public class DataChart {
-    private ArrayList<Frame> charts;
+    private ArrayList<Chart> charts;
 
     public DataChart() {
         this.charts = new ArrayList<>();
     }
 
-    public void addChart(Frame frame) {
-        if (frame != null) {
-            charts.add(frame);
+    public void addChart(Chart chart) {
+        if (chart != null) {
+            charts.add(chart);
         }
     }
 
-    public Frame getChart(int index) {
+    public Chart getChart(int index) {
         if (index >= 0 && index < charts.size()) {
             return charts.get(index);
         }
