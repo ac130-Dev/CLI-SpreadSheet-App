@@ -24,6 +24,10 @@ A command-line spreadsheet application built in Java for creating, managing, and
 - **MatrixTester.java** - Utility class for matrix operations (not currently integrated)
   - `findExtrema()` - finds min/max values in rows and columns
   - `rotateArray()` - rotates matrix 90 degrees (has a known bug)
+<<<<<<< HEAD
+=======
+  - DEMO CLASS
+>>>>>>> 89f33e08063dd056c65beb453c85d57c93904800
 
 ## Usage
 
@@ -85,11 +89,19 @@ null	null	null
 
 ## Features
 
+<<<<<<< HEAD
 - ✅ Create multiple named spreadsheets (Frames)
 - ✅ Add values to specific cells
 - ✅ Display formatted table output
 - ✅ Store multiple charts in memory
 - ✅ CLI-based menu navigation
+=======
+-  Create multiple named spreadsheets (Frames)
+-  Add values to specific cells
+-  Display formatted table output
+-  Store multiple charts in memory
+-  CLI-based menu navigation
+>>>>>>> 89f33e08063dd056c65beb453c85d57c93904800
 
 ## Known Issues
 
@@ -99,6 +111,7 @@ null	null	null
 
 ## Future Enhancements
 
+<<<<<<< HEAD
 - [ ] Save/load spreadsheets to file
 - [ ] Column and row labels
 - [ ] Edit existing cell values
@@ -107,3 +120,13 @@ null	null	null
 - [ ] Basic formulas (SUM, AVG, etc.)
 - [ ] Better table formatting with borders
 - [ ] Matrix operations from MatrixTester class
+=======
+- Save/load spreadsheets to file
+-  Column and row labels
+-  edit existing cell values
+-  Delete rows/columns
+-  Sort rows/columns
+-  Basic formulas (SUM, AVG, etc.)
+-  Better table formatting with borders
+-  Matrix operations from MatrixTester class
+>>>>>>> 89f33e08063dd056c65beb453c85d57c93904800
