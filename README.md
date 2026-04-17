@@ -4,6 +4,12 @@ A command-line spreadsheet application built in Java for creating, managing, and
 
 ## Project Structure
 
+Chart.java — 2D spreadsheet grid
+Cell.java — Data container for each cell
+DataChart.java — Manages multiple charts
+ngin.java — CLI engine
+
+
 ### Core Classes
 
 - **Frame.java** - Represents a single 2D table/spreadsheet with rows and columns
@@ -98,13 +104,10 @@ null	null	null
 - No data persistence (data lost when app exits)
 - No file I/O support yet
 
-## Future Enhancements
+## Future Features
 
-- Save/load spreadsheets to file
--  Column and row labels
--  edit existing cell values
--  Delete rows/columns
--  Sort rows/columns
--  Basic formulas (SUM, AVG, etc.)
--  Better table formatting with borders
--  Matrix operations from MatrixTester class
+- Formula support (=A1 + B1)
+- Save/Load functionality
+- GUI version
+- Chart switching
+- CSV import/export
