@@ -2,12 +2,12 @@
 
 A command-line spreadsheet application built in Java for creating, managing, and displaying table data.
 
-## Project Structure
+### Project Structure
 
-Chart.java — 2D spreadsheet grid
-Cell.java — Data container for each cell
-DataChart.java — Manages multiple charts
-ngin.java — CLI engine
+#### Chart.java — 2D spreadsheet grid
+#### Cell.java — Data container for each cell
+#### DataChart.java — Manages multiple charts
+#### ngin.java — CLI engine
 
 
 ### Core Classes
