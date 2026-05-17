@@ -6,23 +6,23 @@ A command-line spreadsheet application built in Java for creating, managing, and
 
 #### Chart.java — 2D spreadsheet grid
 #### Cell.java — Data container for each cell
-#### DataChart.java — Manages multiple charts
-#### ngin.java — CLI engine
+#### ChartLibrary.java — Manages multiple charts
+#### Main.java — CLI engine
 
 
 ### Core Classes
 
-- **Frame.java** - Represents a single 2D table/spreadsheet with rows and columns
+- **Chart.java** - Represents a single 2D table/spreadsheet with rows and columns
   - Stores data in a 2D Integer array
   - Provides methods to get/set cell values
   - Handles table display formatting
 
-- **DataChart.java** - Container for managing multiple Frame objects
+- **ChartLibrary.java** - Container for managing multiple Frame objects
   - Stores multiple spreadsheets
   - Provides methods to add and retrieve frames
   - Generates decorative borders for CLI display
 
-- **ngin.java** - Main entry point and CLI menu system
+- **Main.java** - Main entry point and CLI menu system
   - Interactive menu-driven interface
   - Handles user input and navigation
   - Manages current working frame
@@ -41,7 +41,7 @@ javac *.java
 
 ### Run
 ```bash
-java ngin
+java Main
 ```
 
 ### Menu Options
