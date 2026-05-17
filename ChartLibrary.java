@@ -1,8 +1,8 @@
 import java.util.ArrayList;
-public class DataChart {
+public class ChartLibrary {
     private ArrayList<Chart> charts;
 
-    public DataChart() {
+    public ChartLibrary() {
         this.charts = new ArrayList<>();
     }
 
