@@ -1,18 +1,19 @@
 import java.util.Scanner;
 
 
-public class ngin {
-    private static DataChart dataChart;
+public class Main {
+    private static ChartLibrary dataChart;
     private static Chart currentFrame;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        dataChart = new DataChart();
-        int choice;
+        dataChart = new ChartLibrary();
+        
 
         System.out.println("Welcome to Spreadsheet CLI");
         
         do {  
+            int choice;
             menu();
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
